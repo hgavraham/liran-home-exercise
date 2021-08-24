@@ -27,3 +27,22 @@ CONTAINER ID   IMAGE                 COMMAND                  CREATED         ST
 04d569b3e3a2   my-nginx:1.0.0.0   "nginx -g 'daemon of…"   4 seconds ago   Up 3 seconds   0.0.0.0:8080->8080/tcp, :::8080->8080/tcp   my-nginx
 ubuntu@ip-172-31-13-194:nginx-container $
 ```
+
+
+### using "update_nginx_configuration.sh" to update the nginx.conf file
+run the "update_nginx_configuration.sh" by running
+```
+bash ./update_nginx_configuration.sh
+```
+or 
+```
+chmod +x ./update_nginx_configuration.sh
+```
+and run
+```
+./update_nginx_configuration.sh
+```
+
+and insert the [full path] of the new nginx config file
+
+
