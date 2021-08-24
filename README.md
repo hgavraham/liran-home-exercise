@@ -43,6 +43,6 @@ and run
 ./update_nginx_configuration.sh
 ```
 
-and insert the [full path] of the new nginx config file
+and insert the <u>full path</u> of the new nginx config file
 
 
