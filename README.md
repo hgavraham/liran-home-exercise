@@ -19,7 +19,7 @@ docker run --name=[anyName] -d --rm -p=8080:8080 [imageName:tag]
 ```
 docker ps
 ```
-verify you see you container running with the name you you given (--name=\[anyName])
+verify you see you container running with the name you given (--name=\[anyName])
 
 ```
 ubuntu@ip-172-31-13-194:nginx-container $ docker ps
