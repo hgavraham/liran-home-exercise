@@ -45,13 +45,15 @@ and run
 
 and insert the <u>full path</u> of the new nginx config file
 example:
-```bahs
+```bash
 ubuntu@ip-172-31-13-194:nginx-container $ bash ./update_nginx_configuration.sh
 ====== update nginx conf file ======
 
-Plese enter the path of the new nginx.conf file:
-Full path: /home/ubuntu/nginx-container/nginx.conf.new
-2021/08/24 16:22:45 [notice] 8#0: signal process started
+Please enter the path of the new nginx.conf file:
+Full path: /home/ubuntu/nginx-container/nginx.conf.liran
+copy /home/ubuntu/nginx-container/nginx.conf.new to my-nginx:/etc/nginx/conf/nginx.conf
+reload nginx container id: 04d569b3e3a2
+2021/08/24 16:31:18 [notice] 22#0: signal process started
 finished...
 ubuntu@ip-172-31-13-194:nginx-container $
 ```
