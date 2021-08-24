@@ -1,10 +1,18 @@
 # liran-home-exercise
 
 ### Deploy the HOME-EXERCISE
-  * First clone the repo
+  * clone the repo
   * cd to the cloned repo
-  * run the below command
+  * build image from the Dockerfile
+
 ```
-docker build -t imageName:tag .
+docker build -t [imageName:tag] .
 ```
+
+  * run and create container from the newly created image
+
+```
+docker run --name=[anyName] -d --rm -p=8080:8080 [imageName:tag]
+```
+
 
