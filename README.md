@@ -58,3 +58,20 @@ finished...
 ubuntu@ip-172-31-13-194:nginx-container $
 ```
 
+### check the web app
+run the command
+```bash
+curl [yourHostIPaddress]:8080/similarweb-home-assignment
+```
+or
+```bash
+curl localhost:8080/similarweb-home-assignment
+```
+
+verity the result
+```bash
+ubuntu@ip-172-31-13-194:nginx-container $ curl localhost:8080/similarweb-home-assignment
+{"result":"hello home assignment!"}
+ubuntu@ip-172-31-13-194:nginx-container $
+```
+
