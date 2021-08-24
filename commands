@@ -1,0 +1,5 @@
+docker run --rm -d --name=liran-nginx -p8080:8080 liran-nginx:1.0.0.0
+
+docker build -t liran-nginx:1.0.0.0 .
+
+
