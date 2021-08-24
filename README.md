@@ -31,18 +31,28 @@ ubuntu@ip-172-31-13-194:nginx-container $
 
 ### using "update_nginx_configuration.sh" to update the nginx.conf file
 run the "update_nginx_configuration.sh" by running
-```
+```bash
 bash ./update_nginx_configuration.sh
 ```
 or 
-```
+```bash
 chmod +x ./update_nginx_configuration.sh
 ```
 and run
-```
+```bash
 ./update_nginx_configuration.sh
 ```
 
 and insert the <u>full path</u> of the new nginx config file
+example:
+```bahs
+ubuntu@ip-172-31-13-194:nginx-container $ bash ./update_nginx_configuration.sh
+====== update nginx conf file ======
 
+Plese enter the path of the new nginx.conf file:
+Full path: /home/ubuntu/nginx-container/nginx.conf.new
+2021/08/24 16:22:45 [notice] 8#0: signal process started
+finished...
+ubuntu@ip-172-31-13-194:nginx-container $
+```
 
