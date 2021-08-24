@@ -4,4 +4,7 @@
   * First clone the repo
   * cd to the cloned repo
   * run the below command
-    test command
+```
+docker build -t imageName:tag .
+```
+
