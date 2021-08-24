@@ -1,4 +1,4 @@
-# liran-home-exercise
+# Liran-home-exercise
 
 ### Deploy the HOME-EXERCISE
   * clone the repo
